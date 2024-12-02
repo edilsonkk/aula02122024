@@ -1,0 +1,105 @@
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1a2a3a;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+  .jose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #121d2b;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107;
+  }
+  
+  .logo span {
+    color: #ffffff;
+  }
+
+
+  .barra-de-navegacao a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .barra-de-navegacao a:hover {
+    color: #ffc107;
+  }
+  
+  .search-icon {
+    font-size: 1.2rem;
+  }
+  
+  .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+  }
+  
+  .subscribe-section {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffc107;
+  }
+  
+  .text-content p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #cfd9df;
+  }
+  
+  .subscribe-form input {
+    display: block;
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .subscribe-form button {
+    width: 85%;
+    padding: 10px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #ffb000;
+  }
+  
+  .image-content .profile-photo {
+    position: relative;
+  }
+  
+  .image-content .profile-photo img {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #ffc107;
+  }
+  
